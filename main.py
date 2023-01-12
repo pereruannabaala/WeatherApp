@@ -5,6 +5,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['DEBUG']=True
+#configuration value for database URI
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///weather.db'
   
 db= SQLAlchemy(app)
 
