@@ -6,7 +6,12 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 app.config['DEBUG']=True
   
+db= SQLAlchemy(app)
 
+
+class City(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name= db.Column(db.String(50), null=False)
 
 
 
