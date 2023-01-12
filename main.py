@@ -8,6 +8,9 @@ app.config['DEBUG']=True
   
 
 
+
+
+
 @app.route('/')
 def index():
     url = 'https://api.openweathermap.org/data/2.5/weather?q={}&APPID=7ddd4e724294f24845adb063481c6d43'
@@ -24,4 +27,4 @@ def index():
     }
 
     print(weather)
-    return render_template('index.html')
+    return render_template('index.html', weather=weather)
