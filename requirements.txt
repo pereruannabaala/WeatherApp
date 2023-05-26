@@ -4,6 +4,7 @@ dominate==2.8.0
 Flask==2.3.2
 Flask-Bootstrap==3.3.7.1
 Flask-WTF==1.1.1
+gunicorn==20.1.0
 importlib-metadata==6.6.0
 itsdangerous==2.1.2
 Jinja2==3.1.2

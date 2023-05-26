@@ -24,7 +24,7 @@
 
 ## Test The Application
 
-Live link: [weather map on Render]()
+Live link: [weather map on Render](https://weather-map-fix.onrender.com)
 
 ### Locally
 
